@@ -249,13 +249,11 @@
 
 .title-two {
   color: #009b6e;
-  /* font-weight: 400; */
 }
 
 .text-content {
   color: #015837;
   font-size: 30px;
-  /* font-weight: 400; */
 }
 
 .list-message {
@@ -266,6 +264,7 @@
 .list-message .list-item {
   padding: 6px;
   text-align: center;
+  line-height: 1.2;
 }
 
 @media screen and (max-width: 500px) {
@@ -285,6 +284,10 @@
     align-items: center;
     max-width: 650px;
     padding-bottom: 0;
+  }
+
+  .btn-m {
+    width: 50%;
   }
 
   .modal-wrap .modal-head {
@@ -318,5 +321,11 @@
     padding: 15px;
     margin-bottom: 15px;
     text-align: center;
+  }
+
+  .list-message .list-item {
+    padding: 6px;
+    text-align: center;
+    line-height: 1.6;
   }
 }

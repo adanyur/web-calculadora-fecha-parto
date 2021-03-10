@@ -39,7 +39,7 @@ const message = (semanaDeGestacion, fechaProbableParto) => {
         diasTranscurrido / 7
       )} semanas de embarazo</span></li>
       <li class="list-item">
-        <button class="btn" type="submit" id="button-reset"> Calcular de nuevo</button>
+        <button class="btn btn-m" type="submit" id="button-reset">Recalcular</button>
       </li>
       </ul>
       `;
