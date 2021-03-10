@@ -75,7 +75,7 @@
 .input-control:focus + .label-control {
   top: -0.5rem;
   left: 0.9rem;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
   z-index: 10;
 }
 
@@ -84,7 +84,7 @@
   top: -0.5rem;
   left: 0.9rem;
   z-index: 10;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 
 .input-control:focus {
