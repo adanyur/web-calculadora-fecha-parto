@@ -103,7 +103,6 @@
   border-radius: 2rem;
   cursor: pointer;
   transition: 0.3s;
-  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.5);
 }
 
 .btn:hover {
@@ -250,13 +249,13 @@
 
 .title-two {
   color: #009b6e;
-  font-weight: 600;
+  /* font-weight: 400; */
 }
 
 .text-content {
   color: #015837;
   font-size: 30px;
-  font-weight: 600;
+  /* font-weight: 400; */
 }
 
 .list-message {
